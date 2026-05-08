@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'Pertemuan9/Compro/**'
 
 jobs:
   build-and-deploy:
