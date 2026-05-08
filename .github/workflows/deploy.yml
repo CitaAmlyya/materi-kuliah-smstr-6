@@ -49,4 +49,4 @@ jobs:
           docker pull ${{ secrets.DOCKERHUB_USERNAME }}/compro:latest
           docker stop compo || true
           docker rm compo || true
-          docker run -d -p 80:80 --name compo ${{ secrets.DOCKERHUB_USERNAME }}/compro:latest
+          docker run -d -p 80:3000 --name compo ${{ secrets.DOCKERHUB_USERNAME }}/compro:latest
