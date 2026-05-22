@@ -142,4 +142,4 @@ jobs:
 - sudo systemctl disable nginx
 - add ubuntu to docker group -> sudo usermod -aG docker ubuntu
 - commit dan push -> dan cek di website
-![alt text](image-6.png)
+![alt text](image-7.png)

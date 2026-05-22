@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS layanan (
   urutan     TINYINT       NOT NULL DEFAULT 0,
   created_at TIMESTAMP     NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP     NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+)  ;
 
 -- -------------------------------------------------------------
 -- Table: berita (News / Blog)
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS berita (
   updated_at   TIMESTAMP     NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   INDEX idx_published (is_published),
   INDEX idx_created   (created_at)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+)  ;
 
 -- -------------------------------------------------------------
 -- Table: kontak (Contact Form Submissions)
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS kontak (
   is_read    TINYINT(1)   NOT NULL DEFAULT 0,
   created_at TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
   INDEX idx_read (is_read)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+)  ;
 
 -- -------------------------------------------------------------
 -- Seed: layanan
@@ -112,7 +112,7 @@ CREATE TABLE IF NOT EXISTS users (
   password   VARCHAR(255) NOT NULL,
   role       VARCHAR(50)  NOT NULL DEFAULT 'admin',
   created_at TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+)  ;
 
 -- -------------------------------------------------------------
 -- Seed: users
