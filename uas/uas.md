@@ -1,25 +1,43 @@
-1. Membuat Instance
-![](image-1.png)
+# UAS: Deploy Web Static dan Docker di EC2
+
+1. Membuat EC2 Instance
+
+   - Gambar: `image-1.png`
+   - Menyiapkan instance baru di AWS EC2 untuk menjalankan aplikasi.
 
 2. Membuat Folder Project
-![alt text](image-2.png)
 
-3. Pindahlan project web static UTS ke dalam folder project stati-web
-![alt text](image-3.png)
+   - Gambar: `image-2.png`
+   - Membuat struktur folder proyek untuk menyimpan sumber daya dan file aplikasi.
 
-4. Membuat dashboard.php
-![alt text](image-4.png)
+3. Memindahkan project web static UTS ke dalam folder `stati-web`
 
-5. Menginstal Docker dan Docker Compose pada EC2 Kegiatan
-![alt text](image-5.png)
+   - Gambar: `image-3.png`
+   - Menyalin dan mengatur ulang file web static ke folder proyek yang benar.
+
+4. Membuat `dashboard.php`
+
+   - Gambar: `image-4.png`
+   - Membuat halaman dashboard sederhana untuk menampilkan data atau kontrol aplikasi.
+
+5. Menginstal Docker dan Docker Compose pada EC2
+
+   - Gambar: `image-5.png`
+   - Mengonfigurasi lingkungan Docker pada instance EC2 untuk menjalankan kontainer.
 
 6. Menambahkan GitHub Secrets
-![alt text](image-6.png)
+
+   - Gambar: `image-6.png`
+   - Menyimpan kredensial dan variabel lingkungan yang dibutuhkan untuk proses CI/CD.
 
 7. Build dan Push Docker Image Otomatis
-![alt text](image-7.png)
 
-8. menampilkan halaman web dinamis
-![alt text](image-8.png)
-![alt text](image-9.png)
-![alt text](image-10.png)
+   - Gambar: `image-7.png`
+   - Menjalankan pipeline untuk membangun image Docker dan mengirimkannya ke registry.
+
+8. Menampilkan Halaman Web Dinamis
+
+   - Gambar: `image-8.png`
+   - Gambar: `image-9.png`
+   - Gambar: `image-10.png`
+   - Menguji halaman web dinamis yang dibangun dan menampilkannya di browser.
