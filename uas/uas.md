@@ -30,17 +30,22 @@
    ![Menambahkan GitHub Secrets](./image-6.png)
    - Menyimpan kredensial dan variabel lingkungan yang dibutuhkan untuk proses CI/CD.
 
-7. Build dan Push Docker Image Otomatis
+7. Membuat repository docker
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
+
+8. Build dan Push Docker Image Otomatis
 
    ![Build dan Push Docker Image Otomatis](./image-7.png)
    - Menjalankan pipeline untuk membangun image Docker dan mengirimkannya ke registry.
 
-8. Menampilkan Halaman Web Dinamis
+9. Menampilkan Halaman Web Dinamis
 
    ![Menampilkan Halaman Web Dinamis 1](./image-8.png)
    ![Menampilkan Halaman Web Dinamis 2](./image-9.png)
    ![Menampilkan Halaman Web Dinamis 3](./image-10.png)
 
-9. Tampilan Web Statis
+10. Tampilan Web Statis
 
    ![Tampilan Web Statis](./image-11.png)
