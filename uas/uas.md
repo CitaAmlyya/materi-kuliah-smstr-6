@@ -35,9 +35,11 @@
    - Gambar: `image-7.png`
    - Menjalankan pipeline untuk membangun image Docker dan mengirimkannya ke registry.
 
-8. Menampilkan Halaman Web Dinamis
+8.  Menampilkan Halaman Web Dinamis
 
    - Gambar: `image-8.png`
    - Gambar: `image-9.png`
    - Gambar: `image-10.png`
-   - Menguji halaman web dinamis yang dibangun dan menampilkannya di browser.
+
+9. Tampilan Web Statis
+![Tampilan Web Statis](./image-11.png)
